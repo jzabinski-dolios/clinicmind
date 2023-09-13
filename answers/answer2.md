@@ -58,7 +58,7 @@ Apparently this code has two goals: (1) to build a sentence, and (2) to display 
 
 ## Comments
 ### Use of var
-Lines 3, 10 and 11 use the `var` keyword to initialize variables. `var` is valid Javascript, but the scope of `var` is unpopular. ES6 introduced `let` and `const`: they are designed to have more clear behavior, and allow the underlying Javascript engine to run faster. I recommend using them. See (this article)[https://hacks.mozilla.org/2015/07/es6-in-depth-let-and-const/].
+Lines 3, 10 and 11 use the `var` keyword to initialize variables. `var` is valid Javascript, but the scope of `var` is unpopular. ES6 introduced `let` and `const`: they are designed to have more clear behavior, and allow the underlying Javascript engine to run faster. I recommend using them. See [this article](https://hacks.mozilla.org/2015/07/es6-in-depth-let-and-const/).
 ### Use of redundant `first_part`
 In line 4, `first_part` is initialized (without a keyword like `var` to define the initialization method):
 ```
