@@ -20,7 +20,7 @@ function findNums(sum, arr) {
     return null;
 }
 ```
-Given a desired sum and an array of integers, this method will find a set of integers whose sum is as desired. Counting the 'decision keywords', this method has a total complexity of 5.
+Given a desired sum and an array of integers, this method will find a set of integers whose sum is as desired. Counting the 'decision keywords', this method has a total complexity of 5: 2 `for`'s, 2 `if`'s, and the number 1.
 
 Contrast that with this code, inspired by [a Stack Overflow article](https://stackoverflow.com/a/68097491/14632909):
 
@@ -38,6 +38,6 @@ function findNums(sum, arr) {
 }
 ```
 
-This code does the same thing, but has a complexity of 3 (one `for` statement; one `if` statement; and the number 1).
+This code does mostly the same thing (ignoring the repetition of numbers), but has a complexity of 3: one `for` statement, one `if` statement and the number 1.
 
 Note that less complexity does not imply more efficient performance. Although example 2 is less complex, it also relies on the `indexOf` operator, whose complexity is unknown and outside the scope of this method's complexity. Performance analysis must be approached as a separate topic, and reconciled with complexity.
