@@ -1,0 +1,2 @@
+# Who is your role model in the world of technology? Why?
+Unfortunately I have no technology role model right now. I work for myself, have no active mentor and don't believe in technology celebrity. However, at my last corporate job, I worked with a man named Eric Esterling, who had been working on web technology for over 20 years. Our debates, discussions and peer reviews taught me much of what I know about being a developer today.
