@@ -2,7 +2,7 @@
 
 The root cause of the issue in `computeTotal` is that jquery's `.each` function is being called with an arrow function:
 ```
-$("li").each(**() =>** {
+$("li").each(() => {
    total += parseInt($(this).text(), 10);
  });
 ```
